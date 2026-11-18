@@ -35,6 +35,57 @@ Small C exercises exploring processes, `fork()`, pipes, and file I/O.
   # Operating Systems Lab Programs in C
 
 This repository contains a structured collection of C programs demonstrating core Operating Systems concepts. Topics include process management, inter-process communication (IPC), file handling, CPU scheduling, and memory page replacement algorithms.
+# Operating Systems Lab Programs in C
+
+A collection of C programs covering process management, inter-process communication (IPC), file handling, CPU scheduling, and page replacement algorithms.
+
+---
+
+### July 31
+- [Child prints numbers; parent waits](July31/child_print_numbers_parent_wait.c)
+- [Child Fibonacci; parent factorial](July31/child_fibonacci_parent_factorial.c)
+- [Create three child processes](July31/create_three_child_processes.c)
+- [Fork: parent and child messages](July31/fork_parent_child_messages.c)
+- [Orphan process demonstration](July31/orphan_process_demo.c)
+- [Parent and child PIDs/PPIDs](July31/parent_child_pid_ppid.c)
+- [Parent prints evens; child prints odds](July31/parent_even_child_odd.c)
+- [Parent reads child exit status](July31/parent_reads_child_exit_status.c)
+- [Parent sum, child Fibonacci, grandchild factorial](July31/parent_sum_child_fibonacci_grandchild_factorial.c)
+- [Zombie process demonstration](July31/zombie_process_demo.c)
+
+### August 7
+- [Child Fibonacci; parent Armstrong numbers](August7/child_fibonacci_parent_armstrong_numbers.c)
+- [Child prime check; parent factorial](August7/child_prime_parent_factorial.c)
+
+### August 17
+- [Child sums array and checks prime](August17/child_sum_array_check_prime.c)
+- [Child sums array and checks prime (variant)](August17/child_sum_array_check_prime_variant.c)
+
+### Process Communication
+- [Pipe: parent and child communication](02_Process_Communication/01_pipe_parent_child.c)
+- [Pipe: array sum and prime check](02_Process_Communication/02_array_sum_prime_pipe.c)
+- [FIFO (named pipe) writer](02_Process_Communication/03_fifo_writer.c)
+- [FIFO (named pipe) reader](02_Process_Communication/04_fifo_reader.c)
+- [Message queue sender](02_Process_Communication/05_message_sender.c)
+- [Message queue receiver](02_Process_Communication/06_message_receiver.c)
+- [Shared memory writer](02_Process_Communication/07_shared_writer.c)
+- [Shared memory reader](02_Process_Communication/08_shared_reader.c)
+- [String permutations](02_Process_Communication/09_string_permutations.c)
+
+### File Handling
+- [Child writes even numbers; parent reads](03_File_Handling/01_child_write_even_parent_read.c)
+- [Child opens file](03_File_Handling/02_child_open_file.c)
+- [Parent writes to file; child reads](03_File_Handling/03_parent_write_child_read.c)
+
+### CPU Scheduling
+- [First-Come, First-Served (FCFS)](04_CPU_Scheduling/01_fcfs.c)
+- [Shortest Job First (SJF) – Non-Preemptive](04_CPU_Scheduling/02_sjf_non_preemptive.c)
+- [Priority Scheduling – Non-Preemptive](04_CPU_Scheduling/03_priority_non_preemptive.c)
+
+### Page Replacement
+- [First-In, First-Out (FIFO)](05_Page_Replacement/01_fifo.c)
+- [Least Recently Used (LRU)](05_Page_Replacement/02_lru.c)
+
 
 ---
 
